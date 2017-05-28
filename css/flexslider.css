@@ -116,7 +116,7 @@ html[xmlns] .slides {display: block;}
 	-o-transform: rotate(-90deg);
 }
 .flex-control-paging li a.flex-active { 
-	background: #FF983C; 
+	background: #55acee; 
 	cursor: default;
 	transform: rotateX(360deg);
 	-webkit-transform: rotateX(360deg);

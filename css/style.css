@@ -1,11 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*Main Styles*/
+section {
+	margin: 2% 0 2% 0;
+}
+
 /*Welcome section*/
 
 /*Navbar styles*/
 header {
-	background: #FF983C;
+	background:  #55acee;
 	border-bottom: 1px solid rgba(0,0,0,.1);
 	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
 	display: block;
@@ -31,13 +36,14 @@ header > nav > ul > li {
 	transition: all linear 0.1s;
 }
 header > nav > ul > li:hover {
-	background: #ffac62;
+	background: #76bcf1
+;
 	color: #fff !important;
 	text-decoration: none !important;
 	
 }
 header > nav > ul > li a + div {
-	background: #FF983C;
+	background:  #55acee;
 	border-radius: 0 0 2px 2px;
 	box-shadow: 0 3px 1px rgba(0,0,0,.05);
 	display: none;
@@ -68,7 +74,8 @@ header > nav > ul > li a + div > ul > li > a {
 }
 header > nav > ul > li a + div > ul > li:hover > a {
 	color: #fff;
-	background-color: #ffac62;
+	background-color: #76bcf1
+;
 	text-decoration: none;
 }
 header > nav > ul > li > a {
@@ -95,6 +102,11 @@ header > nav > ul > li > a {
     visibility: hidden;
     display: none;
   }
+}
+.header-text{
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 125px;
 }
 @media (max-width: 1000px){
 	.mobile-header{
@@ -125,11 +137,15 @@ header > nav > ul > li > a > div > span {
 /*Welcome block Styles*/
 .welcome {
 	position: relative;
-	background-image: url(../images/header.png);
+	background-image: url(../images/header-picture.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
-	height: 200px;
-	
+    background-size: contain;
+	background-attachment: fixed;
+	background-position:center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+	height: 600px;
 	
 }
 
@@ -138,7 +154,7 @@ header > nav > ul > li > a > div > span {
 	color: #fff;
 	text-shadow: 2 2 3 #434343;
 	padding-left:15%;
-	margin-top: 125px;
+	margin-top: 525px;
 }
 .phone-content{
 	display: table;
@@ -168,7 +184,7 @@ header > nav > ul > li > a > div > span {
 }
 .agileits-contact-info ul li span {
     margin-right: 10px;
-    color: #FF983C;
+    color:  #55acee;
 }
 .agileits-contact-info ul li:nth-child(2) {
     margin-left: 25px;
@@ -215,7 +231,7 @@ header > nav > ul > li > a > div > span {
 	text-align:center;
 }
 .agile-header {
-    margin: 20px 0 0 0;
+    margin: 26% 0 0 0;
     border-top: 1px solid #fff; 
 	height: 20px;
 }
@@ -238,7 +254,7 @@ header > nav > ul > li > a > div > span {
 	transition: 0.5s all;
 }
 .contact-right-w3-agile input[type="text"]:hover {
-	border-color: #FF983C;
+	border-color:  #55acee;
 	-webkit-transition: 0.5s all;
 	-o-transition: 0.5s all;
 	-moz-transition: 0.5s all;
@@ -264,7 +280,7 @@ header > nav > ul > li > a > div > span {
 	transition: 0.5s all;
 }
 .contact-right-w3-agile textarea:hover {
-	border-color: #FF983C;
+	border-color:  #55acee;
 	-webkit-transition: 0.5s all;
 	-o-transition: 0.5s all;
 	-moz-transition: 0.5s all;
@@ -288,8 +304,8 @@ header > nav > ul > li > a > div > span {
 }
 .contact-right-w3-agile form input[type="submit"]:hover {
 	color: #fff;
-	background: #FF983C;
-	border: 2px solid #FF983C;
+	background:  #55acee;
+	border: 2px solid  #55acee;
 	-webkit-transition: 0.5s all;
 	-o-transition: 0.5s all;
 	-moz-transition: 0.5s all;
@@ -488,7 +504,7 @@ header > nav > ul > li > a > div > span {
 	margin: 0 auto;
 	text-align: center;
 	position: relative;
-	border: 2px solid #FF983C;
+	border: 2px solid  #55acee;
 }
 .chrt_grid .icon img {
 	position: relative;
@@ -500,7 +516,7 @@ header > nav > ul > li > a > div > span {
 	width: 102%;
 	height: 102%;
 	border-radius: 50%;
-	background: #FF983C;
+	background:  #55acee;
 	position: absolute;
 	top: -1px;
 	left: -1px;
@@ -560,7 +576,7 @@ header > nav > ul > li > a > div > span {
 	font-size: 20px;
 	line-height: 32px;
 	font-weight: 600;
-	color: #FF983C;
+	color:  #55acee;
 	letter-spacing: 2px;
 }
 .banner-grid1 p {
@@ -601,7 +617,7 @@ p.w3l {
 	line-height: 28px;
 }
 .de_testi_by, .de_testi_by a {
-	color: #FF983C;
+	color:  #55acee;
 	font-size: 0.9em;
 	margin: 17px 0 0 0;
 }
@@ -646,7 +662,7 @@ p.w3l {
 	float: right;
 	padding-top: 5%;
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 13px;
 	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, " sans-serif";
 	line-height: 25px;
 }
@@ -654,7 +670,10 @@ p.w3l {
 	list-style-type: none;
 }
 .float-menu a {
-	color: #FF983C;
+	color:  #55acee;
+}
+.float-menu a:hover{
+	color:  #55acee;
 }
 ul {
 	list-style-type: none;
@@ -671,7 +690,7 @@ ul {
 	list-style-type: none;
 }
 .float-mobile-menu a {
-	color: #FF983C;
+	color:  #55acee;
 }
 /*-- what --*/
 .what-left {
@@ -709,15 +728,15 @@ ul {
 	border-radius: 50%;
 	line-height: 60px;
 	text-align: center;
-	background: #FF983C;
+	background:  #55acee;
 	color: #fff;
 }
 .what-top1 {
 	margin: 2em 0;
 }
-.w3ls_head {
+.  {
 	font-size: 36px;
-	color: #FF983C;
+	color:  #55acee;
 	font-weight: 600;
 	margin-bottom: 20px;
 	letter-spacing: 4px;
@@ -729,7 +748,7 @@ ul {
 }
 .what-agile-info {
 	margin-top: 30px;
-	border-left: 3px solid #FF983C;
+	border-left: 3px solid  #55acee;
 	padding: 0 0px 0 20px;
 }
 p.w3agile {
@@ -768,16 +787,17 @@ p.w3agile {
 #logo-holder:hover .text {opacity:1;}
 
 .image-content{
-	border: solid;
+	border: thick;
 	border-radius: 5px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-color: #434343;
 }
 
 .box-content{
    text-align: center;
-	border: solid;
+	border: thick;
 	border-radius: 5px;
-	background-color: #337ab7;
+	border-color: #434343;
 	width: 250px;
 	height: 250px;
 	
@@ -790,7 +810,7 @@ p.w3agile {
 	
 	text-transform: uppercase;
 	padding: 2.5px 2.5px 2.5px 2.5px;
-	color: #fff;
+	color: #000000;
 	margin-top: 1.25px;
 	
 	
@@ -800,15 +820,16 @@ p.w3agile {
 }
 
 .box-content a{
-	color: #fff;
+	color: black;
 	
 }
 
 .box-content a:hover{
 	
 	text-decoration: none;
-	color: #fff;
+	color: black;
 }
+/*Offers section*/
 .modal-box{
 	text-align: center;
 }
@@ -830,7 +851,7 @@ p.w3agile {
 
 
 .modal-box-header{
-	background-color: #FF983C;
+	background-color:  #55acee;
 	border-radius: 5px 5px 0px 0px;
 	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, " sans-serif";
 	color: #fff;
@@ -857,3 +878,67 @@ p.w3agile {
 	color: #fff;
 	text-decoration: none;
 }
+
+.offers-table{
+	display: table;
+}
+
+.offers-segment{
+	display: table-row;
+	
+}
+@media (max-width: 999px){
+	.offers-segment{ 
+	text-align: center;
+	margin: auto;
+	}
+	
+	.offers-segment a{
+	margin: auto;
+	}
+}
+
+.content-white{
+	background-color: #eef6fd;
+	text-align: center;
+	height: 250px;
+	padding-top: 5%;
+}
+
+.content-white p{
+	padding-top: 5%;
+}
+
+.content-grey{
+	background-color: #ddeefb;
+	text-align: center;
+	height: 250px;
+	padding-top: 5%;
+}
+
+/*-- to-top --*/
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 20px;
+	right: 2%;
+	overflow: hidden;
+	z-index: 9999; 
+	width: 32px;
+	height: 28px;
+	border: none;
+	text-indent: 100%;
+	background: url(../images/move-top.png) no-repeat -3px 3px;
+}
+#toTopHover {
+	width: 32px;
+	height: 28px;
+	display: block;
+	overflow: hidden;
+	float: right;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+}
+/*-- //to-top --*/

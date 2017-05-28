@@ -39,14 +39,14 @@ header .profilePhoto {
 
 header .profileHeader h1 {
 	font-family: 'Montserrat', sans-serif;
-	color:  #FF983C;
+	color:  #55acee;
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 24px;
 }
 header .profileHeader h3 {
 	font-family: sans-serif;
-	color:  #FF983C;
+	color:  #55acee;
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 24px;
@@ -57,7 +57,7 @@ hr {
 }
 header .profileHeader p {
 	font-family: sans-serif;
-	color:  #FF983C;
+	color:  #55acee;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.8;
@@ -82,7 +82,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 }
 .section1 .sectionTitle, .section2 .sectionTitle {
 	font-family: 'Montserrat', sans-serif;
-	color:  #FF983C;
+	color:  #55acee;
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -104,12 +104,12 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	color: rgba(208,207,207,1.00);
 }
 .mainContent .section1 .section1Content span {
-	color:  #FF983C;
+	color:  #55acee;
 	font-family: sans-serif;
 }
 .section2 .sectionContentTitle {
 	font-family: sans-serif;
-	color:  #FF983C;
+	color:  #55acee;
 	font-size: 18px;
 	font-weight: 700;
 }

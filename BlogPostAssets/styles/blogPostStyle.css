@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 hr{
-	color: #FF983C;
-	background-color: #FF983C;
+	color: #55acee;
+	background-color: #55acee;
 	size: 15px !important;
 	width: 50%;
 	margin-right: 50%;
@@ -11,7 +11,7 @@ hr{
 
 #content #mainContent h1, #content #mainContent h2 {
 	/* Styling for main headings */
-	color: #FF983C;
+	color: #434343;
 }
 #content #mainContent h3 {
 	/*Captions ot Taglines */
