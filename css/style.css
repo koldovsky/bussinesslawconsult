@@ -106,7 +106,7 @@ header > nav > ul > li > a {
 .header-text{
 	text-transform: uppercase;
 	color: #fff;
-	margin-top: 125px;
+	margin-top: 200px;
 }
 @media (max-width: 1000px){
 	.mobile-header{
@@ -154,7 +154,7 @@ header > nav > ul > li > a > div > span {
 	color: #fff;
 	text-shadow: 2 2 3 #434343;
 	padding-left:15%;
-	margin-top: 525px;
+	margin-top: 440px;
 }
 .phone-content{
 	display: table;
@@ -231,9 +231,8 @@ header > nav > ul > li > a > div > span {
 	text-align:center;
 }
 .agile-header {
-    margin: 26% 0 0 0;
+    margin: 20% 0 0 0;
     border-top: 1px solid #fff; 
-	height: 20px;
 }
 /*Welcome block Styles end*/
 /*--contact--*/
@@ -942,3 +941,13 @@ p.w3agile {
 	filter: alpha(opacity=0);
 }
 /*-- //to-top --*/
+
+@media screen and (max-width: 999px)
+{
+	.grey{
+		background-color: #ddeefb;
+	}
+	.white{
+		background-color: #eef6fd;
+	}
+}
